@@ -632,7 +632,9 @@ nav a:focus {
   gap: 20px;
   border-radius: 10px;
 }
-
+.section-clients-icons>li:hover {
+  border-color: var(--project-blue);
+}
 footer {
   background-color: var(--background-black);
   color: #fff;
