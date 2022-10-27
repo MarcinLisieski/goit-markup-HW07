@@ -44,16 +44,30 @@ body {
   list-style-type: none;
 
 }
+.agency-main-site {
+  font-weight: 700;
+  color: var(--font-color)
+}
 
-.project-blue {
+.nav-agency {
   font-weight: 700;
   color: var(--font-color)
   }
   
-  .main-font-color {
-    font-weight: 700;
-    color: var(--font-color)
-  }
+        .main-font-color {
+          font-weight: 700;
+          color: var(--font-color)
+        }
+    
+        .portfolio-link {
+          font-weight: 700;
+          color: var(--font-color)
+        }
+    
+        .nav-contacts {
+          font-weight: 700;
+          color: var(--font-color)
+        }
 .black {
   color: #000;
 }
@@ -738,7 +752,7 @@ footer svg {
 .image-port:hover {
   cursor: pointer;
 
-  box-shadow: 1px 1px 5px 1px #838181
+  box-shadow: 0px 0px 5px 0px #838181
 }
 
 .box-images {
@@ -834,4 +848,64 @@ margin: 0 auto;
   padding-top: 25px;
   padding-left: 100px;
   margin-bottom: 30px;
+}
+.overlay-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+  text-align: center;
+  padding: 49px 45px 49px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  transform: translateY(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-port:hover .overlay {
+  transform: translateY(-100%);
+}
+
+.main-font-color {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.main-font-color::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 53px;
+  top: 45px;
+  left: 0;
+  background: var(--project-blue);
+  border-radius: 2px;
+}
+
+.agency-main-site {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.agency-main-site::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 53px;
+  top: 45px;
+  left: 0;
+  background: var(--project-blue);
+  border-radius: 2px;
 }
