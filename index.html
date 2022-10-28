@@ -54,7 +54,7 @@
     <div>
       <div class="main-top">
         <h1 class="main-content">EFEKTYWNE ROZWIĄZANIA<br> DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="main-btn">Zamów usługę</button>
+        <button type="button" class="main-btn" data-modal-open>Zamów usługę</button>
       </div>
       
       <section class="section-list">
@@ -366,6 +366,15 @@
     </div>
   </footer>
   </div>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>
+        <img src="./images/black_modal_icon.svg" />
+      </button>
+    </div>
+  </div>
+  
+  <script src="./js/modal.js"></script>
 </body>
 
 
