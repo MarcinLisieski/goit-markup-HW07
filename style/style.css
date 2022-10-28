@@ -361,7 +361,13 @@ nav a:focus {
 .nav-item-agency:hover {
   color: var(--project-blue);
 }
+.envelope-icon:hover {
+  fill: var(--project-blue);
+}
 
+.contact-icon:hover {
+  fill: var(--project-blue);
+}
 .nav-item2:hover {
   color: var(--project-blue);
 }
