@@ -200,6 +200,7 @@ nav a:focus {
   padding-top: 200px;
   line-height: 1.36;
   margin: 0;
+  margin-bottom: 30px;
 
 }
 
@@ -217,6 +218,7 @@ nav a:focus {
   padding: 350, 700, 200, 700;
   height: 50px;
     width: 200px;
+  
 }
 
 .main-bttn:hover {
