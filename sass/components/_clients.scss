@@ -1,0 +1,32 @@
+.ourclients {
+    padding-bottom: 94px;
+  }
+ 
+  
+&_header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.3;
+    text-align: center;
+  
+    letter-spacing: 0.03em;
+    color: #212121;  
+} 
+
+&__items {
+    fill: var(--icons-grey);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: var(--icons-grey);
+    gap: 30px;
+    padding: 0;
+  }
+
+  &:focus,
+  &:hover  {
+    background-color: var(--primary-white);
+    transition: all 0.3s;
+    fill: var(--project-blue);
+  }
