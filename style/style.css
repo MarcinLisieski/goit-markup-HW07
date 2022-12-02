@@ -214,12 +214,12 @@ nav a:focus {
   color: #ffffff;
 }
 
-.btn-hover {
+.btn--hover {
   cursor: pointer;
   background-color: var(--project-blue);
 }
 
-.buttons {
+.portfolio__items {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
   gap: 8px;
@@ -287,7 +287,7 @@ nav a:focus {
   list-style-type: none;
 }
 
-.buttons button {
+.portfolio__items button {
   width: 121px;
   border-radius: 6px;
   height: 40px;
@@ -295,7 +295,7 @@ nav a:focus {
   border: none;
 }
 
-.btn-hover:hover {
+.btn--hover:hover {
   background-color: var(--project-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -315,7 +315,7 @@ nav a:focus {
 .content {
   list-style-type: none;
 }
-.content-ul {
+.portfolio__list {
   display: flex;
   /* Make a flex container multiline */
   flex-wrap: wrap;
@@ -332,7 +332,7 @@ nav a:focus {
   padding-bottom: 94px;
 }
 
-.content-listp {
+.portfolio__list-item {
   /*  Set the width of the elements  */
   flex-basis: calc((100% - 65px) / 3);
   list-style: none;
@@ -402,7 +402,7 @@ nav a:focus {
   margin-left: 0;
   padding-left: 30px;
 }
-.buttons {
+.portfolio__items {
   padding: 0;
   margin: 0;
   display: flex;
@@ -493,7 +493,7 @@ nav a:focus {
   font-size: 14px;
 }
 
-.conent-fig-cap {
+.portfolio__description {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -509,7 +509,7 @@ nav a:focus {
   display: block;
 }
 
-.conent-fig-cap-p {
+.portfolio__description__paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.3;
@@ -716,15 +716,19 @@ footer svg {
   color: var(--main-silver);
 }
 
-.image-port {
+.portfolio__card {
   border: 1px solid #eeeeee;
   max-width: 372px;
 }
 
-.image-port:hover {
+.portfolio__card:hover {
   cursor: pointer;
 
   box-shadow: 0px 0px 5px 0px #838181;
+}
+
+.portfolio__card:hover .portfolio__overlay {
+  transform: translateY(-100%);
 }
 
 .box-images {
@@ -819,12 +823,12 @@ footer svg {
   padding-left: 100px;
   margin-bottom: 30px;
 }
-.overlay-item {
+.portfolio__card__overlay {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.portfolio__overlay {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -841,9 +845,6 @@ footer svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.image-port:hover .overlay {
-  transform: translateY(-100%);
-}
 
 .nav-submenu__link--portfolio {
   position: relative;
