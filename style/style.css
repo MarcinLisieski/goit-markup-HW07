@@ -128,6 +128,41 @@ nav a:focus {
   padding-top: 1px;
 }
 
+.contact2-bot:hover {
+  color: var(--project-blue);
+}
+
+.contact1-bot:hover {
+  color: var(--project-blue);
+}
+
+#link1 {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.contact1 {
+  margin-left: 19%;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact2 {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .banner {
   text-align: center;
   background: var(--background-black);
