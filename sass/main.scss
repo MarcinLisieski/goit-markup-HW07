@@ -1,2 +1,22 @@
 
 @import "./utils/vars";
+@import "./components/all/footer/address-group";
+@import "./components/all/footer/button1";
+@import "./components/all/footer/content";
+@import "./components/all/footer/email-input";
+@import "./components/all/footer/social";
+
+@import "./components/all/header/contacts";
+@import "./components/all/header/logo";
+@import "./components/all/header/nav-bar";
+
+@import "./components/index/backdrop";
+@import "./components/index/banner";
+@import "./components/index/features";
+@import "./components/index/ourclients";
+@import "./components/index/services";
+@import "./components/index/team-list-section";
+
+@import "./components/portfolio/card-section";
+@import "./components/portfolio/filter-buttons";
+@import "./components/portfolio/navbar"

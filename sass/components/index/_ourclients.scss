@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+    padding-top: 94px;
+  }
+  .ourclients__header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.3;
+    text-align: center;
+  
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .ourclients__items {
+    fill: var(--icons-grey);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: var(--icons-grey);
+    gap: 30px;
+    padding: 0;
+  }
+  
+  .ourclients__items--icons:hover {
+    background-color: var(--primary-white);
+    transition: all 0.3s;
+    fill: var(--project-blue);
+  }
+  
+  .ourclients {
+    padding-bottom: 94px;
+  }
+  
+  .ourclients__items > li {
+    border: 3px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  .ourclients__items > li:hover {
+    border-color: var(--project-blue);
+  }
