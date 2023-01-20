@@ -1,0 +1,31 @@
+.header-contact {
+    color: #757575;
+    text-decoration: none;
+    line-height: 16px;
+    display: flex;
+  }
+  
+  .mail {
+    margin-right: 30px;
+  }
+  
+  .header-contact:hover,
+  .header-contact:focus {
+    color: var(--project-blue);
+    --color2: var(--project-blue);
+    --color1: var(--project-blue);
+  }
+  .contact-icon {
+    fill: #757575;
+    margin-right: 10px;
+    height: 16px;
+    align-items: center;
+  }
+  
+  .contact-icon-mail {
+    fill: #757575;
+    margin-right: 10px;
+    height: 16px;
+    padding-top: 1px;
+  }
+  

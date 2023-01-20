@@ -1,0 +1,26 @@
+.footer__newsletter {
+    margin-top: 13px;
+    margin-left: 77px;
+    background-color: transparent;
+}
+.footer__newsletter h3 {
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: var(--primary-white);
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.newsletter__input {
+    height: 50px;
+    width: 358px;
+    background-color: transparent;
+    margin-right: 12px;
+    border-radius: 4px;
+  }
+  .newsletter__input:hover {
+    border-color: #2196f3;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
