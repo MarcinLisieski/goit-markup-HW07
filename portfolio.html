@@ -13,183 +13,251 @@
 
     <title>Portfolio</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylsheet" href="style/modern-normalize.css">
-    <link rel="stylesheet" href="style/style.css">
+        <link rel="stylsheet" href="css/modern-normalize.css">
+        <link rel="stylesheet" href="css/main.css">
 </head>
 
 
 <body class="body-portfolio">
-<section>
-    <header class="header-portfolio">
-        <div class="nav-bar">
-            <nav class="logo">
-    
-                <a href="#" id="link1"><span class="nav-web">Web</span class="nav-web">Studio</a>
-                <ul class="nav">
-                    <li class="nav">
-                        <a href="index.html" id="link1"><span class="nav-item-agency">Agencja</span></a>
-                    </li>
-                    <li class="nav">
-                        <a href="portfolio.html" id="link1"><span class="nav-item2">Portfolio</span></a>
-                        </li>
-                        <li class="nav">
-                            <a href="#" id="link1"><span class="nav-item2">Kontakt</span></a>
-                        </li>
-                        </ul>
-                        </ul>
-                        <nav class="nav">
-                            <ul class="nav">
-                                <li class="nav">
-                            <a class="nav-email" href="mailto:info@devstudio.com" id="link1"><span class="contact1">info@devstudio.com</span></a>
-                            </li>
-                            <li class="nav">
-                            <a href="tel:+48111111111" id="link1">
-                            
-                            
-                                <span class="contact2">+48 111 111 111</span></a>
-                            </li>
-                            </ul>
-                            </nav>
-                            </div>
-                            </header>
-</section>
+    <section>
+        <header>
+            <div class="nav-top">
+              <div style="display: flex; align-items: center">
+                <a href="./index.html" class="logo">Web<span class="logo__item">Studio</span></a>
+                <nav class="nav-submenu">
+                  <a class="nav-submenu__link" href="./index.html" >Agencja</a>
+                  <a class="nav-submenu__link--portfolio" href="./portfolio.html">Portfolio</a>
+                  <a class="nav-submenu__link" href="#" >Kontakt</a>
+                </nav>
+                <a class="header-contact mail" href="mailto:info@devstudio.com">
+                  <div class="contact-icon-mail">
+                    <svg class="envelope-icon" width="16 " height="12">
+                      <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                  </div>
+      
+                  info@devstudio.com
+                  </a>
+                  <a class="header-contact" href="tel:+48111111111">
+                    <div class="contact-icon">
+                      <svg width="10 " height="16">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                      </svg>
+                    </div>
+                    +48 111 111 111
+                  </a>
+                  </div>
+            </div>
+          </header>
+                        </section>
     <main>
         <section class="container">
-        <div class="buttons-portfolio">
-            <ul class="buttons">
-        
-                <li class="button"><button type="button" class="btn-hover"><strong class="button">Wszystkie</strong></button>
-                </li>
-        
-                <li class="button"><button type="button" class="btn-hover"><strong class="button">Strony</strong></button></li>
-        
-                <li class="button"><button type="button" class="btn-hover"><strong class="button">Aplikacje</strong></button>
-                </li>
-        
-                <li class="button"><button type="button" class="btn-hover"><strong class="button">Dizajn</strong></button></li>
-        
-                <li class="button"> <button type="button" class="btn-hover"><strong class="button">Marketing</strong></button>
-                </li>
-        
-            </ul>
-</div>
-            
+            <div class="portfolio__filter">
+                <ul class="portfolio__items">
+
+                    <li class="button"><button type="button" class="btn--hover"><strong class="button">Wszystkie</strong></button>
+                    </li>
+
+                    <li class="button"><button type="button" class="btn--hover"><strong class="button">Strony</strong></button></li>
+
+                    <li class="button"><button type="button" class="btn--hover"><strong class="button">Aplikacje</strong></button>
+                    </li>
+
+                    <li class="button"><button type="button" class="btn--hover"><strong class="button">Dizajn</strong></button></li>
+
+                    <li class="button"> <button type="button" class="btn--hover"><strong class="button">Marketing</strong></button>
+                    </li>
+                    
+                    </ul>
+                    </div>
+
         </section>
         <section>
-            <ul class="content-ul">
-                <li class="content-listp">
-                    <div class="image-port">
+            <ul class="portfolio__list">
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
                         <img src="images/imgp1.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Technocrack</strong></h3>
-                            <p class="conent-fig-cap-p">Strona internetowa</p>
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
+                        </div>
+                        <h3><strong class="portfolio__description">Technocrack</strong></h3>
+                        <p class="portfolio__description__paragraph">Strona internetowa</p>
                     </div>
                 </li>
-                <li class="content-listp">
-                    <div class="image-port">
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
                         <img src="images/imgp2.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3 class="img2p-description"><strong class="conent-fig-cap">Grafika New Orleans vs Golden Star</strong></h3>
-                            <p class="conent-fig-cap-p">Dizajn</p>
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
                         </div>
-                </li>
-                <li class="content-listp">
-                    <div class="image-port">
-                        <img src="images/imgp3.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                            <p class="conent-fig-cap-p">Aplikacja</p>
-                        </div>
-                </li>
-
-                <li class="content-listp">
-                    <div class="image-port">
-                        <img src="images/imgp4.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
-                        </div>
-                </li>
-                <li class="content-listp">
-                    <div class="image-port">
-                        <img src="images/imgp5.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
+                        <h3><strong class="portfolio__description">Grafika New Orlean vs Golden Star</strong></h3>
+                        <p class="portfolio__description__paragraph"> Dizajn</p>
                     </div>
                 </li>
-                <li class="content-listp">
-                    <div class="image-port">
-                        <img src="images/imgp6.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
+                        <img src="images/imgp3.jpg" width="370" height="294" alt="photo of John Doe">
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
                         </div>
+                        <h3><strong class="portfolio__description">Restauracja Sea Food</strong></h3>
+                        <p class="portfolio__description__paragraph">Aplikacja</p>
+                    </div>
+                </li>
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
+                        <img src="images/imgp4.jpg" width="370" height="294" alt="photo of John Doe">
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
+                        </div>
+                        <h3><strong class="portfolio__description">Projekt Prime</strong></h3>
+                        <p class="portfolio__description__paragraph">Marketing</p>
+                    </div>
+                </li>
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
+                        <img src="images/imgp5.jpg" width="370" height="294" alt="photo of John Doe">
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
+                        </div>
+                        <h3><strong class="portfolio__description">Projekt Boxes</strong></h3>
+                        <p class="portfolio__description__paragraph">Aplikacja</p>
+                    </div>
+                </li>
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
+                        <img src="images/imgp6.jpg" width="370" height="294" alt="photo of John Doe">
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
+                        </div>
+                        <h3><strong class="portfolio__description">Inspiration has no Borders</strong></h3>
+                        <p class="portfolio__description__paragraph">Strona internetowa</p>
+                    </div>
                 </li>
 
-                <li class="content-listp">
-                    <div class="image-port">
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
                         <img src="images/imgp7.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
                         </div>
+                        <h3><strong class="portfolio__description">Magazyn Limited Edition</strong></h3>
+                        <p class="portfolio__description__paragraph"> Dizajn</p>
+                    </div>
                 </li>
-                <li class="content-listp">
-                    <div class="image-port">
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
                         <img src="images/imgp8.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
                         </div>
+                        <h3><strong class="portfolio__description">Projekt LAB</strong></h3>
+                        <p class="portfolio__description__paragraph">Marketing</p>
+                    </div>
                 </li>
-                <li class="content-listp">
-                    <div class="image-port">
+                <li class="portfolio__list-item">
+                    <div class="portfolio__card">
+                        <div class="portfolio__card__overlay">
                         <img src="images/imgp9.jpg" width="370" height="294" alt="photo of John Doe">
-                        <h3><strong class="conent-fig-cap">Restauracja Sea Food</strong></h3>
-                        <p class="conent-fig-cap-p">Aplikacja</p>
+                        <p class="portfolio__overlay">Technocrack jest popularną platformą wykorzystywaną do
+                            rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                            platformę do celów szpiegowskich i ataków na
+                            niezabezpieczone serwery konkurencji</p>
+                        </div>
+                        <h3><strong class="portfolio__description">Growing Business</strong></h3>
+                        <p class="portfolio__description__paragraph">Aplikacja</p>
                     </div>
                 </li>
             </ul>
-            </section>
+        </section>
 
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-container"><a href="./index.html" class="logo">Web<span class="white">Studio</span></a>
-                <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-                <a href="mailto:info@example.com" class="footer-contact" id="footer-email">info@example.com</a>
+    <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__container"><a href="./index.html" class="logo">Web<span class="logo--white">Studio</span></a>
+            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+            <a href="mailto:info@example.com" class="footer__contact" id="footer-email">info@example.com</a>
     
-                <a href="tel:+48111111111" class="footer-contact">+48 111 111 111</a>
-            </div>
-            <div class="footer-social">
-                <h3>Dołącz do nas</h3>
-                <ul class="footer-social-links">
-                    <li>
-                        <a href="#"><svg width="20" height="20">
-                                <use href="./images/icons.svg#icon-instagram-2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><svg width="20" height="20">
-                                <use href="./images/icons.svg#icon-twitter-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><svg width="20" height="20">
-                                <use href="./images/icons.svg#icon-facebook-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><svg width="20" height="20">
-                                <use href="./images/icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <a href="tel:+48111111111" class="footer__contact">+48 111 111 111</a>
+          </div>
+          <div class="footer-social">
+            <h3>Dołącz do nas</h3>
+            <ul class="footer-social-links">
+              <li>
+                <a href="#"><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#"><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#"><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#"><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+           
+          </div>
+          <div class="footer__newsletter">
+            <h3>Zapisz się do newslettera</h3>
+            <input
+            type="email"
+            name="email-address"
+            placeholder="Email"
+            class="newsletter__input"
+          />
+          
+            <button type="submit" class="newsletter__btn">Zapisz się 
+            <img
+              src="./images/icon-send.svg"
+              alt="send icon"
+              width="24"
+              height="24"
+            />
+          </button></div>
         </div>
-    </footer>
+      </footer>
 
 
 

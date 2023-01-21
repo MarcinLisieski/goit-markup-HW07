@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+    padding-top: 94px;
+  }
+  .portfolio__items {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    gap: 8px;
+  }
+  .portfolio__items button {
+    width: 121px;
+    border-radius: 6px;
+    height: 40px;
+    background: #f5f4fa;
+    border: none;
+  }
+  .portfolio__items {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .button {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+  .portfolio__items button {
+    width: 121px;
+    border-radius: 6px;
+    height: 40px;
+    background: #f5f4fa;
+    border: none;
+  }
+  .btn--hover:hover {
+    background-color: var(--project-blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    border: none;
+    color: rgb(255, 255, 255);
+  }
+  .btn--hover {
+    cursor: pointer;
+    background-color: var(--project-blue);
+  }
+  
