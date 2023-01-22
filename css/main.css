@@ -66,7 +66,7 @@ body {
   margin-bottom: 24px;
 }
 
-.logo--white {
+.logo-white {
   color: var(--primary-white);
 }
 
@@ -574,7 +574,7 @@ nav a:focus {
   text-decoration: none;
 }
 
-.logo--white {
+.logo-white {
   color: var(--primary-white);
 }
 
@@ -599,7 +599,7 @@ nav a:focus {
   padding: 0;
 }
 
-.ourclients__items--icons:hover {
+.ourclients__items-icons:hover {
   background-color: var(--primary-white);
   transition: all 0.3s;
   fill: var(--project-blue);
@@ -807,7 +807,7 @@ footer svg {
   fill: var(--primary-white);
 }
 
-.feature__icon--item {
+.feature__icon-item {
   background-color: #f5f4fa;
 }
 
@@ -896,7 +896,7 @@ footer svg {
   background-color: var(--main-white);
 }
 
-.close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -1049,7 +1049,7 @@ label > div {
   text-decoration: underline;
 }
 
-.modal-btn {
+.modal__send-btn {
   margin-bottom: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   
