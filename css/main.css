@@ -43,7 +43,7 @@ body {
   list-style-type: none;
 }
 
-.nav-submenu__link--portfolio {
+.nav-submenu__link-portfolio {
   font-weight: 700;
   color: var(--font-color);
 }
@@ -842,13 +842,13 @@ footer svg {
 }
 
 
-.nav-submenu__link--portfolio {
+.nav-submenu__link-portfolio {
   position: relative;
   width: max-content;
   height: max-content;
 }
 
-.nav-submenu__link--portfolio::after {
+.nav-submenu__link-portfolio::after {
   content: "";
   position: absolute;
   height: 4px;
